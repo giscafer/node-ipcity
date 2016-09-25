@@ -1,0 +1,26 @@
+{
+  "name": "node-ipcity",
+  "version": "0.0.1",
+  "description": "get ip city info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giscafer/node-ipcity.git"
+  },
+  "keywords": [
+    "ipcity",
+    "iplocation"
+  ],
+  "author": "giscafer <giscafer@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giscafer/node-ipcity/issues"
+  },
+  "homepage": "https://github.com/giscafer/node-ipcity#readme",
+  "dependencies": {
+    "superagent": "^2.3.0"
+  }
+}
