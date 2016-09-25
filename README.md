@@ -1,6 +1,6 @@
 # node-ipcity
 
-[![NPM version][https://img.shields.io/npm/v/node-ipcity.svg?style=flat-square]](https://www.npmjs.com/package/node-ipcity)
+[![NPM version](https://img.shields.io/npm/v/node-ipcity.svg?style=flat-square)](https://www.npmjs.com/package/node-ipcity)
 
 get ip city info in Node.js,Base on http://int.dpool.sina.com.cn/iplookup/iplookup.php
 
