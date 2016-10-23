@@ -2,9 +2,9 @@
 
 [![NPM version](https://img.shields.io/npm/v/node-ipcity.svg?style=flat-square)](https://www.npmjs.com/package/node-ipcity)
 
-get ip city info in Node.js,Base on http://int.dpool.sina.com.cn/iplookup/iplookup.php
+get ip city info in Node.js,Base on `http://int.dpool.sina.com.cn/iplookup/iplookup.php`,`http://ip.cn/`
 
-获取ip归属城市信息
+获取ip归属城市信息，获取ip地址
 
 ## Install
 
@@ -13,9 +13,14 @@ get ip city info in Node.js,Base on http://int.dpool.sina.com.cn/iplookup/iplook
 ## Usage
 
 ```javascript
+	//获取指定ip的城市
 	let ipcity=require('node-ipcity');
 	ipcity.getIpCityInfo('221.193.207.29').then((city) => {
 		console.log(city);//中国 河北 邯郸
+	});
+	//获取ip地址
+	ipcity.getIp().then((ip) => {
+		console.log('your ip is '+ip); //your ip is 183.220.19.214
 	});
 
 ```
